@@ -1,0 +1,15 @@
+projects:
+  Demo AppSync:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - src/graphql/**/*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql
+        region: eu-west-1
+        apiId: 5zz333mwojavrg56wfenylzdea
+        maxDepth: 2
